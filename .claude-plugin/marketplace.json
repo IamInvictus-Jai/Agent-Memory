@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-memory",
+  "version": "1.0.0",
+  "description": "Agent-Memory — a Claude-Code-first persistent memory brain for software projects. Every session starts with full context; decisions, design and tracked implementation plans are captured automatically by hooks.",
+  "owner": {
+    "name": "Pulasari Jai",
+    "url": "https://github.com/IamInvictus-Jai/Agent-Memory"
+  },
+  "plugins": [
+    {
+      "name": "agent-memory",
+      "description": "Install the Agent-Memory brain: auto-captured decisions, tracked plans, session-start context injection, and a parallel software-review panel. Scaffold it into any repo with /memory-init.",
+      "source": "./plugins/agent-memory",
+      "category": "development",
+      "featured": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "agent-memory",
+  "version": "1.0.0",
+  "description": "Persistent memory brain for software projects: auto-captured decisions, design and tracked implementation plans, hook-enforced session-end consolidation, and a parallel dev review panel. Claude-Code-first, no DB, no cron.",
+  "author": {
+    "name": "Pulasari Jai"
+  },
+  "keywords": [
+    "memory",
+    "second-brain",
+    "context",
+    "implementation-plan",
+    "hooks",
+    "subagents",
+    "software-development"
+  ],
+  "license": "MIT"
+}
